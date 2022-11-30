@@ -1,0 +1,258 @@
+
+
+ * {
+    font-family: Open Sans, sans-serif !important;
+  } 
+  /* *{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif
+ } */
+
+  /* *{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif
+ } */
+  #global {
+    display: flex;
+    flex-basis: content;
+    max-width: 1200px;
+    margin: auto;
+    padding-top: 5%;
+  }
+  #filter {
+    max-width: 40%;
+    margin: 0 2.5%;
+    flex: 1;
+  }
+  #filflex {
+    display: flex;
+    flex-direction: column;
+  }
+  .radlbl {
+    width: 90%;
+    float: left;
+    padding-bottom: 1.5rem;
+  }
+  .rad {
+    float: right;
+    width: 15px;
+    height: 15px;
+    /* padding-left: 1rem; */
+  }
+  
+  #search {
+    width: 95%;
+    margin: 5% 0;
+    height: 2.5rem;
+    border-radius: 5px;
+    font-size: 18px;
+    padding-left: 5%;
+    border: 0.5px solid grey;
+  }
+  hr {
+    width: 100%;
+    border: 0.5px solid rgb(223, 227, 230);
+  }
+  #device {
+    margin: 0 2.5%;
+    flex: 3.5;
+  }
+  #rt {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+  }
+  #rt > h2{
+    padding: 10px;
+    padding-left: 10px;
+  }
+  #sort {
+    float: right;
+    width: 250px;
+    border-radius: 5px;
+    height: 40px;
+    margin: 1rem 0 1rem 4rem;
+  }
+  .opt {
+    box-sizing: content-box;
+    display: flex;
+    padding: 0.5rem;
+    height: 80px;
+  }
+  #rt > p {
+    margin: 1.5rem 0 1rem 19rem;
+    color: #4f585e;
+  }
+  #jav {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  #jav > .box {
+    width: 30%;
+    margin: 1.5%;
+    border: 1px solid #dfe3e6;
+    border-radius: 6px;
+    text-align: center;
+  }
+  .boxtag,
+  .boxprice {
+    text-align: left;
+    color: #4f585e;
+    padding-left: 2rem;
+  }
+
+  
+
+  #enc {
+    width: 92%;
+  }
+  #bot1 {
+    width: 70%;
+    margin : auto;
+    display: flex;
+    margin-left: 18%;
+  }
+  #bot1 > div {
+    flex-basis: 30.3%;
+    margin: 1.5%;
+    padding: 40px 24px;
+  }
+  #bot1 > div > p {
+    color: #8897a2;
+    line-height: 1.2;
+    max-width: 220px;
+    font-size: 17px;
+  }
+  #mob {
+    width: 70%;
+    margin: auto;
+    display: flex;
+    margin-left: 15%;
+  }
+  #mob .mobimg img {
+    width: 240px;
+    height: 420px;
+    padding-right: 10px;
+    margin-right: 100px;
+  }
+  .app {
+    width: 400px;
+  }
+  #txt {
+    margin-top: 20px;
+    font-size: 20px;
+    color: #4f585e;
+    margin-left: 2.5%;
+    line-height: 1.25;
+    font-weight: 400;
+  }
+  .logflx {
+    display: flex;
+    margin-top: 30px;
+  }
+  .log {
+    background-color: #4f585e;
+    color: white;
+    min-width: 16rem;
+    margin: 2.5%;
+    padding: 12px 15px;
+    border-radius: 5px;
+  }
+  .log:hover {
+    background-color: rgb(75, 75, 75);
+  }
+  .log > img {
+    width: 25px;
+    float: left;
+  }
+  .log > p {
+    float: left;
+    margin-left: 15px;
+    margin-top: 0;
+    font-size: 14px;
+    padding-top: 8px;
+    letter-spacing: -0.3px;
+  }
+  #bot3 {
+    background-color: rgb(244, 247, 251);
+    width: 100%;
+    margin: 0;
+    padding: 5% 5%;
+    margin-left: -3%;
+  }
+  #b3first {
+    display: flex;
+  }
+  #feat {
+    display: flex;
+    flex: 3;
+  }
+  #feat > div {
+    flex-basis: 100%;
+  }
+  #b3first p {
+    color: rgb(79, 88, 94);
+    line-height: 1.1;
+    font-size: 16px;
+    font-weight: 400;
+  }
+  span > img {
+    height: 2rem;
+    margin: 0.5rem;
+  }
+  #b3sec {
+    display: flex;
+    flex-basis: auto;
+  }
+  #pay {
+    flex: 3;
+  }
+  #copy {
+    padding-top: 4rem;
+  
+    text-align: right;
+    flex: 1;
+  }
+  #social {
+    margin-left: 20px;
+    flex: 1;
+  }
+  #social > img {
+    width: 50px;
+    background-color: teal;
+    padding: 5px;
+    border-radius: 22px;
+    margin: 0.75rem;
+  }
+  #social > img:hover {
+    transform: scale(1.2);
+  }
+  #social > iframe {
+    width: 100%;
+    border: none;
+    border-radius: 6px;
+    margin-top: 3rem;
+  }
+  #feat p {
+    padding-bottom: 7px;
+  }
+  #feat h4 {
+    padding-top: 10px;
+    font-weight: 700;
+  }
+  #feat p:hover {
+    color: rgb(16, 132, 126);
+  }
+  
+  #social > img:hover {
+    transform: scale(1.2);
+  }
+  #pay > span > img {
+    height: 2rem;
+  }
+
+ 
+  

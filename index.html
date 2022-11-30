@@ -1,0 +1,850 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pharmeasy</title>
+    <link rel="stylesheet" href="./styles/index.css" />
+    <link rel="stylesheet" href="styles/navbar.css" />
+    <link rel="stylesheet" href="./styles/footer.css" />
+  </head>
+  <body>
+    <div id="main_nav">
+      <div id="navbar">
+        <img
+          id="logo"
+          src="https://assets.pharmeasy.in/apothecary/images/logo_big.svg?dim=360x0"
+          alt=""
+        />
+        <hr />
+        <div id="pin">
+          <div>
+            <p style="color: #4f585e ;">
+              <img
+                src="https://assets.pharmeasy.in/apothecary/images/ic_express%20delivery.svg?dim=32x0"
+                alt=""
+              />Express delivery to
+            </p>
+          </div>
+
+          <div>
+            <h3>
+              Select pincode
+              <img id="showmore" src="./images/show-more.png" alt="" />
+            </h3>
+          </div>
+        </div>
+        <div id="search">
+          <img id="searchlogo" src="./images/search.png" alt="" />
+          <input id="searchinput" type="search" placeholder="Search for ..." />
+          <button id="search_btn">Search</button>
+
+        </div>
+        <div style="margin-left: 30px" id="login_div">
+          <div>
+            <img id="person_img" src="./images/profile.png" alt="" />
+          </div>
+          <div id="text">
+            <a id="login" href="login.html"> <span>Hello,Log in</span></a>
+          </div>
+        </div>
+
+        <div id="offer_div">
+          <div>
+            <img id="offer_img" src="./images/offer.png" alt="" />
+          </div>
+          <div id="offer_txt">
+            <a id="offer" href="#offer"><span>Offers</span></a>
+          </div>
+        </div>
+
+        <div id="cart_main">
+          <div id="cart_div">
+            <img id="cart_img" src="./images/carts.png" alt="" />
+          </div>
+          <div id="count">1</div>
+          <div id="offer_txt">
+            <a id="offer" href="cart1.html"><span>Cart</span></a>
+          </div>
+        </div>
+      </div>
+
+      <div id="anchor_tags">
+
+        <a href="./medicine.html">Medicine</a>
+        <a href="./healthcare.html">Healthcare</a>
+        <a href="./labtest.html">Lab Test</a>
+        <a href="./offer.html">Offers</a>
+        <a href="">PLUS</a>
+
+        <a href="blog.html">Health Blogs</a>
+
+        <a href="./blog.html">Health Blogs</a>
+
+      </div>
+
+
+    </div>
+
+    <div id="slideshow"></div>
+    <div id="category"></div>
+    <div id="offers_for_you">
+      <h2 id="offers_for_you_text">Offers Just For You !</h2>
+    </div>
+
+    <div id="offer_divs">
+      <div class="offer_inside">
+        <div class="offer_image">
+          <img
+            src="https://cms-contents.pharmeasy.in/offer/028f38c99b9-PELOGO.jpg?dim=1440x0"
+            alt=""
+          />
+        </div>
+
+        <p class="offer_text">Flat 25% off on first 3 medicine offers</p>
+      </div>
+      <div class="offer_inside">
+        <div class="offer_image">
+          <img
+            src="https://cms-contents.pharmeasy.in/offer/5ff570b46e0-PELOGO.jpg?dim=1440x0"
+            alt=""
+          />
+        </div>
+
+        <p class="offer_text">Flat 27% off upto Rs.50000</p>
+      </div>
+      <div class="offer_login_div">
+        <div class="offer_login">
+          <img src="./images/user.png" alt="" />
+          <h3>Login to view offers</h3>
+        </div>
+      </div>
+    </div>
+
+    <div id="title_cat"><h2>Shop By Categories ....</h2></div>
+
+    <div id="shop_by_categories"></div>
+
+    <div id="offers_for_you"></div>
+
+    <marquee id="marquee" behaviour="alternate" direction="left">
+      <img
+        src="https://cdn01.pharmeasy.in/dam/banner/banner/37176137470-POCK27.jpg"
+        alt=""
+      />
+      <img
+        src="https://cdn01.pharmeasy.in/dam/banner/banner/51e34800f6d-HURRAY.jpg"
+        alt=""
+      />
+      <img
+        src="https://cdn01.pharmeasy.in/dam/banner/banner/cf9086f1406-LABTEST450_onetimrfree.jpg"
+        alt=""
+      />
+      <img
+        src="https://cdn01.pharmeasy.in/dam/banner/banner/c0034c14fe6-634X274.jpg"
+        alt=""
+      />
+      <img
+        src="https://cdn01.pharmeasy.in/dam/banner/banner/2faeb574eaa-slipper.jpg"
+        alt=""
+      />
+    </marquee>
+
+    <div id="new_launches"></div>
+
+    <div class="new_launches_div"></div>
+
+    <div id="Near_you_text">
+      <h2>Trending Near You ....</h2>
+      <p id="popular_in_city">Popular In Your City !</p>
+    </div>
+
+    <div id="popularincity"></div>
+
+    <div id="healthy">
+      <div id="healthconcern_text">
+        <h2>Lab Tests by Health Concern</h2>
+        <p id="poweredByText">
+          Powered by
+          <img
+            id="imgThyro"
+            src="https://assets.pharmeasy.in/apothecary/images/Thyrocare.webp?dim=1440x0"
+            alt=""
+          />
+        </p>
+      </div>
+
+      <div id="texts_main">
+        <div class="textsofrecommending">
+          <div>
+            <img src="./images/explore.png" alt="" />
+          </div>
+          <div>
+            <p class="ptag">Recommended By Health Experts</p>
+          </div>
+        </div>
+        <div class="textsofrecommending">
+          <div>
+            <img src="./images/explore.png" alt="" />
+          </div>
+          <div>
+            <p class="ptag">Report In 24 hrs</p>
+          </div>
+        </div>
+        <div class="textsofrecommending">
+          <div>
+            <img src="./images/explore.png" alt="" />
+          </div>
+          <div>
+            <p class="ptag">Home Sample Pickup</p>
+          </div>
+        </div>
+        <div class="textsofrecommending">
+          <div>
+            <img src="./images/explore.png" alt="" />
+          </div>
+          <div>
+            <p class="ptag">World Class Technologies % labs</p>
+          </div>
+        </div>
+        <div class="textsofrecommending">
+          <div>
+            <img src="./images/explore.png" alt="" />
+          </div>
+          <div>
+            <p class="ptag">Highly Skilled Technicians</p>
+          </div>
+        </div>
+        <div class="textsofrecommending">
+          <div>
+            <img src="./images/explore.png" alt="" />
+          </div>
+          <div>
+            <p class="ptag">100% Safe & Hygiene</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="healthcare_div"></div>
+
+    <div id="titlefrequentlybooked">
+      <h2>Frequently Booked Lab Tests....</h2>
+    </div>
+
+    <div id="frequentlybooked">
+      <div id="frequentlybooked1">
+        <div class="percentoff">
+          <p>64% OFF</p>
+        </div>
+
+        <div class="headingoffrequentlybooked">
+          <p>Comprehensive Full Body Checkup with Vitamin D &amp; B12</p>
+        </div>
+        <div>
+          <p class="smallpoffrequentlybooked">
+            Measures Vitamin D & B12 levels and other essential parameters
+          </p>
+        </div>
+
+        <div class="bottomFrequentlybooked">
+          <div>
+            <p class="priceoffrecentrybooked">₹1499</p>
+          </div>
+          <div>
+            <img
+              class="imgfrequentlybooked"
+              src="https://s3.ap-south-1.amazonaws.com/pe-neon-public/diagnostics/production/recommendationWidget/01abb07c5b233f90b2cd0b64a7ebccee.png?dim=256x0"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+
+      <div id="frequentlybooked2">
+        <div class="percentoff">
+          <p>60% OFF</p>
+        </div>
+
+        <div class="headingoffrequentlybooked">
+          <p>Fasting Blood Sugar (FBS)</p>
+        </div>
+        <div>
+          <p class="smallpoffrequentlybooked">
+            Provides sugar level after an overnight's fast
+          </p>
+        </div>
+
+        <div class="bottomFrequentlybooked">
+          <div>
+            <p style="margin-top: 115px" class="priceoffrecentrybooked">₹199</p>
+          </div>
+          <div>
+            <img
+              style="margin-top: 50px"
+              class="imgfrequentlybooked"
+              src="https://s3.ap-south-1.amazonaws.com/pe-neon-public/diagnostics/production/recommendationWidget/8fcec926bf37309bbf6cec04e6684ba1.png?dim=256x0"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+
+      <div id="frequentlybooked3">
+        <div class="percentoff">
+          <p>28% OFF</p>
+        </div>
+
+        <div class="headingoffrequentlybooked">
+          <p>Thyroid Stimulating Hormone (TSH)</p>
+        </div>
+        <div>
+          <p class="smallpoffrequentlybooked">
+            Helps diagnose any abnormal functioning of your thyroid gland
+          </p>
+        </div>
+
+        <div class="bottomFrequentlybooked">
+          <div>
+            <p class="priceoffrecentrybooked">₹249</p>
+          </div>
+          <div>
+            <img
+              class="imgfrequentlybooked"
+              src="https://s3.ap-south-1.amazonaws.com/pe-neon-public/diagnostics/production/recommendationWidget/3924174a006f354a9eb0356611438338.png?dim=256x0"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+
+      <div id="frequentlybooked4">
+        <div class="percentoff">
+          <p>34% OFF</p>
+        </div>
+
+        <div class="headingoffrequentlybooked">
+          <p>Dengue NS 1 Antigen</p>
+        </div>
+        <div>
+          <p class="smallpoffrequentlybooked">
+            Test to detect a dengue infection
+          </p>
+        </div>
+
+        <div class="bottomFrequentlybooked">
+          <div>
+            <p style="margin-top: 115px" class="priceoffrecentrybooked">₹600</p>
+          </div>
+          <div>
+            <img
+              style="margin-top: 50px"
+              class="imgfrequentlybooked"
+              src="https://s3.ap-south-1.amazonaws.com/pe-neon-public/diagnostics/production/recommendationWidget/37ebeeb109543b779c568444f7ce84be.png?dim=256x0"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="paymentOffers"><h2>Payment Offers ....</h2></div>
+
+    <div id="paymentbanks">
+      <div class="imageofbanks">
+        <img
+          src="https://cdn01.pharmeasy.in/dam/banner/banner/4bbc0b1648d-OPEN-FILE.jpg?dim=1440x0"
+          alt=""
+        />
+      </div>
+      <div class="imageofbanks">
+        <img
+          src="https://cdn01.pharmeasy.in/dam/banner/banner/a93d45ef9eb-HSBC.jpg?dim=1440x0"
+          alt=""
+        />
+      </div>
+      <div class="imageofbanks">
+        <img
+          src="https://cdn01.pharmeasy.in/dam/banner/banner/24ea2e52ea9-hdfc.jpg?dim=1440x0"
+          alt=""
+        />
+      </div>
+      <div class="imageofbanks">
+        <img
+          src="https://cdn01.pharmeasy.in/dam/banner/banner/0c5c9ec6841-mobikwik.jpg?dim=1440x0"
+          alt=""
+        />
+      </div>
+      <div class="imageofbanks">
+        <img
+          src="https://cdn01.pharmeasy.in/dam/banner/banner/9466405c308-au.jpg?dim=1440x0"
+          alt=""
+        />
+      </div>
+      <div class="imageofbanks">
+        <img
+          src="https://cdn01.pharmeasy.in/dam/banner/banner/b530ee057a3-freecharge.jpg?dim=1440x0"
+          alt=""
+        />
+      </div>
+    </div>
+
+    <div id="wellnesstext">
+      <h2>Wellness Essentials of the Week ....</h2>
+      <p id="superchargeimmunitytext">Super charge your immunity with us !</p>
+    </div>
+
+    <div id="superchargeImmunity"></div>
+
+    <div id="featured_brands_title">
+      <h2>Featured Brands ....</h2>
+      <p id="featured_barands_p">Pick from our favourite brands</p>
+    </div>
+
+    <div id="featuredBrands"></div>
+
+    <div id="randomimages">
+      <div>
+        <img
+          src="https://cdn01.pharmeasy.in/dam/banner/banner/fcbf95577c3-VELCRO.jpg?dim=1440x0"
+          alt=""
+        />
+      </div>
+      <div>
+        <img
+          src="https://cdn01.pharmeasy.in/dam/banner/banner/a9ad640ce01-4.jpg?dim=1440x0"
+          alt=""
+        />
+      </div>
+      <div>
+        <img
+          src="https://cdn01.pharmeasy.in/dam/banner/banner/93ef9d6df4f-SLIPPERS.jpg?dim=1440x0"
+          alt=""
+        />
+      </div>
+      <div>
+        <img
+          src="https://cdn01.pharmeasy.in/dam/banner/banner/6e16a38ea89-ORTHO_PEDOC.jpg?dim=1440x0"
+          alt=""
+        />
+      </div>
+    </div>
+
+    <div id="dealsOfTheDay"><h2>Deals Of The Day ...</h2></div>
+
+    <div id="dealsoftheday"></div>
+
+    <div id="inthespotlight">
+      <div id="inthespotligh_text">
+        <h2 style="font-family: sans-serif">In The Spotlight</h2>
+      </div>
+
+      <div id="inthespotlight_maindiv"></div>
+    </div>
+
+    <div id="belowspotlightimages">
+      <img
+        src="https://cdn01.pharmeasy.in/dam/banner/banner/83f4ac3edc1-HHSSB.jpg?dim=1440x0"
+        alt=""
+      />
+      <img
+        src="https://cdn01.pharmeasy.in/dam/banner/banner/19a254ab992-SB.jpg?dim=1440x0"
+        alt=""
+      />
+      <img
+        src="https://cdn01.pharmeasy.in/dam/banner/banner/0e50d93c5e4-Beone-SB.jpg?dim=1440x0"
+        alt=""
+      />
+      <img
+        src="https://cdn01.pharmeasy.in/dam/banner/banner/3333e696122-Himalayababym.jpg?dim=1440x0"
+        alt=""
+      />
+    </div>
+
+    <div id="healtharticles_text">
+      <h2>Health Articles ....</h2>
+      <p id="healtharticles_p">Get up-to-date on our latest health updates</p>
+    </div>
+
+    <div id="healthArticles"></div>
+
+    <div id="whyChooseUs_text">
+      <h2>Why Choose Us ?</h2>
+    </div>
+
+    <div id="whyChooseUs">
+      <div class="whychooseus">
+        <div class="imageofwhychoosUs">
+          <img
+            src="https://assets.pharmeasy.in/apothecary/images/family.svg?dim=256x0"
+            alt=""
+          />
+        </div>
+        <div class="blockedcontent">
+          <div class="millions">
+            <h3>32 Million+</h3>
+          </div>
+          <div class="detailsofusersregistered">
+            <p>Registered users as of Mar 31, 2022</p>
+          </div>
+        </div>
+      </div>
+      <div class="whychooseus">
+        <div class="imageofwhychoosUs">
+          <img
+            src="https://assets.pharmeasy.in/apothecary/images/deliveryBoy.svg?dim=256x0"
+            alt=""
+          />
+        </div>
+        <div class="blockedcontent">
+          <div class="millions">
+            <h3>36 Million+</h3>
+          </div>
+          <div class="detailsofusersregistered">
+            <p>Orders on Pharmeasy till date</p>
+          </div>
+        </div>
+      </div>
+      <div class="whychooseus">
+        <div class="imageofwhychoosUs">
+          <img
+            src="https://assets.pharmeasy.in/apothecary/images/pincodeServed.svg?dim=256x0"
+            alt=""
+          />
+        </div>
+        <div class="blockedcontent">
+          <div class="millions">
+            <h3>99000+</h3>
+          </div>
+          <div class="detailsofusersregistered">
+            <p>Unique items sold last 3 months</p>
+          </div>
+        </div>
+      </div>
+      <div class="whychooseus">
+        <div class="imageofwhychoosUs">
+          <img
+            src="https://assets.pharmeasy.in/apothecary/images/locationMarker.svg?dim=256x0"
+            alt=""
+          />
+        </div>
+        <div class="blockedcontent">
+          <div class="millions">
+            <h3>19500+</h3>
+          </div>
+          <div class="detailsofusersregistered">
+            <p>Pin codes serviced last 3 months</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="whatcustomerssay_text">
+      <h2>What Our Customers have to Say ....</h2>
+    </div>
+
+    <div id="customersaying">
+      <div class="customerscomment">
+        <div class="customer">
+          <h3>Rajarshi Sarkar</h3>
+          <p>April 22, 2022</p>
+        </div>
+        <div class="customersWords">
+          <p>
+            ""
+            <br />
+            The app is really wonderful. Being a Product Manager myself, I would
+            say that the User experience (UI/UX) of the app is top notch (easy
+            to use, simple and convenient). Coming to services and delivery, I
+            would say Pharmeasy is doing a tremendous job even during this
+            unprecedented pandemic situation.
+          </p>
+        </div>
+      </div>
+
+      <div class="customerscomment">
+        <div class="customer">
+          <h3>Darpan Dholakia</h3>
+          <p>April 23, 2022</p>
+        </div>
+        <div class="customersWords">
+          <p>
+            ""
+            <br />
+            The app is really wonderful. Being a Product Manager myself, I would
+            say that the User experience (UI/UX) of the app is top notch (easy
+            to use, simple and convenient). Coming to services and delivery, I
+            would say Pharmeasy is doing a tremendous job even during this
+            unprecedented pandemic situation.
+          </p>
+        </div>
+      </div>
+
+      <div class="customerscomment">
+        <div class="customer">
+          <h3>Lipi Chaudhuri</h3>
+          <p>April 22, 2022</p>
+        </div>
+        <div class="customersWords">
+          <p>
+            ""
+            <br />
+            The app is really wonderful. Being a Product Manager myself, I would
+            say that the User experience (UI/UX) of the app is top notch (easy
+            to use, simple and convenient). Coming to services and delivery, I
+            would say Pharmeasy is doing a tremendous job even during this
+            unprecedented pandemic situation.
+          </p>
+        </div>
+      </div>
+
+      <div class="customerscomment">
+        <div class="customer">
+          <h3>Rajarshi Sarkar</h3>
+          <p>April 22, 2022</p>
+        </div>
+        <div class="customersWords">
+          <p>
+            ""
+            <br />
+            The app is really wonderful. Being a Product Manager myself, I would
+            say that the User experience (UI/UX) of the app is top notch (easy
+            to use, simple and convenient). Coming to services and delivery, I
+            would say Pharmeasy is doing a tremendous job even during this
+            unprecedented pandemic situation.
+          </p>
+        </div>
+      </div>
+
+      <div class="customerscomment">
+        <div class="customer">
+          <h3>Rajarshi Sarkar</h3>
+          <p>April 22, 2022</p>
+        </div>
+        <div class="customersWords">
+          <p>
+            ""
+            <br />
+            The app is really wonderful. Being a Product Manager myself, I would
+            say that the User experience (UI/UX) of the app is top notch (easy
+            to use, simple and convenient). Coming to services and delivery, I
+            would say Pharmeasy is doing a tremendous job even during this
+            unprecedented pandemic situation.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div id="twoMobies">
+      <div>
+        <h1 style="margin-top: 40px" id="simplifying_healthcare_text">
+          Simplifying <br />
+          Healthcare <br />
+          Impacting Lives
+        </h1>
+      </div>
+      <div><h3 style="margin-top: 20px">Download the App for Free</h3></div>
+
+      <div id="googleplaybuttons">
+        <div>
+          <img
+            class="googleplayimage"
+            src="https://assets.pharmeasy.in/apothecary/images/googlePlay.svg?dim=360x0"
+            alt=""
+          />
+        </div>
+        <div>
+          <img
+            class="googleplayimage"
+            src="https://assets.pharmeasy.in/apothecary/images/appStore.svg?dim=360x0"
+            alt=""
+          />
+        </div>
+      </div>
+    </div>
+
+    <div class="linesbylibes">
+      <h3>Top-Selling Healthcare Products:</h3>
+      <p>
+        Accu-Chek Active - 100 Strips|Supradyn Multivitamin Tablets|DR Morepen
+        BG 03 - 50 Strips|Dettol Antiseptic Liquid|Ensure Diabetes Care Vanilla
+        Sugar Free Jar|Dettol Instant Hand Sanitizer|Everherb Shilajit|Softovac
+        SF Powder|Pediasure Premium Chocolate Refill
+      </p>
+    </div>
+    <div  class="linesbylibes">
+      <h3>Top-Selling Medicines:</h3>
+      <p>
+        Dolovera Gel | Neurobion Forte | Chymoral Forte | Crocin Advance |
+        Soframycin | Dexorange | Becadexamin | Folvite | Livogen | Becosules |
+        Fourderm | Nurokind Plus | Burnol | Crocin 650 | Mintop 5 | Thrombophob
+        | Evion 600
+      </p>
+    </div>
+
+    <div  class="linesbylibes"><h3>COVID-19 Preventatives:</h3><p>   N95 Masks|Hand Sanitizers|Hand Gloves, Disinfectants, Thermometers & more!</p>
+   </div>
+
+   <div  class="linesbylibes"><h3>Your One-Stop Online Pharmacy - PharmEasy</h3></div>
+
+   <div  class="linesbylibes"><h3>We've got India Covered!</h3><p>We now deliver in 1000+ cities and towns across 22000+ pin codes. We thereby cover every nook and corner of the country! The major cities in which we deliver include Mumbai, Kolkata, Delhi, Bengaluru, Ahmedabad, Hyderabad, Chennai, Thane, Howrah, Pune, Gurgaon, Navi Mumbai, Jaipur, Noida, Lucknow, Ghaziabad & Vadodara.</p></div>
+
+
+   <div  class="linesbylibes"><h3>Say Goodbye to All Your Healthcare Worries With PharmEasy!</h3><p>PharmEasy is here to help you take it easy! We are amongst one of India's top online pharmacy and medical care platforms. It enables you to order pharmaceutical and healthcare products online by connecting you to registered retail pharmacies and get them delivered to your home. We are an online medical store, making your purchase easy, simple, and affordable!</p></div>
+
+
+   <div  class="linesbylibes"><h3>   How Are We Making Lives Simpler With Our Online Medical Store?</h3><p>Our doorstep delivery service is available in PAN-India across top cities like Bangalore, Delhi, Mumbai, Kolkata, Hyderabad, Gurgaon, Noida, Pune, etc. Our online medical store also allows you to choose from 1 lakh+ products including OTC products and medical equipment. PharmEasy is a one-stop online medical platform where you can also book diagnostic tests including blood tests, full-body checkups, and other preventive health check-ups at an affordable cost, right from the comfort of your home. We have partnered with trusted & certified labs that arrange for a sample pick-up from the convenience of your home. They also provide you with timely reports.
+  </p></div>
+
+
+  <div  class="linesbylibes"><h3>  Why Are We The Most Preferred Online Pharmacy?</h3><p>Lucrative offers on our platform allow you to make payment online and via various payment wallets at a discounted price. Alternatively, you can also choose to pay cash on delivery as we deliver the products at your doorstep. We cater to all your pharmaceutical needs and also make ordering medicines online a hassle-free experience for you. We connect you only with registered retail pharmacies & certified diagnostic labs. We ensure that healthcare is affordable to all and make the process of ordering online simple.
+  </p></div>
+
+<div  class="linesbylibes"><h3>Sit Back & Relax While You Get Your Essentials Delivered Every Month!</h3><p>It’s tough to remember to refill every month, especially in the case of chronic diseases. PharmEasy’s subscription service not only ensures that you are reminded of your refills but also makes sure that you are never out on your medical essentials. You will get a reminder every month and your order will be delivered at your convenience!
+</p></div>
+
+<div  class="linesbylibes"><h3>Access medical and health information:</h3><p>PharmEasy delivers reliable and accurate medical information that has been carefully written, vetted and validated by our health experts. Our specialists curate high-quality and most reliable literature about medicines, illnesses, lab tests, Ayurvedic and over the counter health products.
+</p></div>
+<div  class="linesbylibes"><h3>We Believe in ‘Simplifying Healthcare, Impacting Lives!’</h3></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div id="footer">
+      <div id="bot3">
+        <div id="b3first">
+          <div id="feat">
+            <div>
+              <h4>Company</h4>
+              <p>Careers</p>
+              <p>Blogs</p>
+              <p>Partner with PharmEasy</p>
+              <h4>Our Services</h4>
+              <p>Order Medicine</p>
+              <p>Healthcare Products</p>
+              <p>Diagnostic Tests</p>
+            </div>
+            <div>
+              <h4>Featured Categories</h4>
+              <p>Covid Essentials</p>
+              <p>Devices</p>
+              <p>Nutriyion and Fitness Suppliments</p>
+              <p>Personal Care</p>
+              <p>Ayurvedic Care</p>
+              <p>Baby and Mom care</p>
+              <p>Skin Care</p>
+              <p>Diabetic Care</p>
+              <p>Sexual Wellness</p>
+              <p>Short term Ailments</p>
+              <p>Lifestyle Ailments</p>
+              <p>Home Care</p>
+              <p>Women Care</p>
+              <p>Health Food and Drinks</p>
+              <p>Ortho Care</p>
+            </div>
+            <div>
+              <h4>Need Help</h4>
+              <p>Browse All Medicines</p>
+              <p>Browse All Molecules</p>
+              <p>FAQs</p>
+              <h4>Policy Info</h4>
+              <p>Editorial Policy</p>
+              <p>Privacy Policy</p>
+              <p>Vulnerability Disclosure Policy</p>
+              <p>Terms and condition</p>
+              <p>Customer Support Policy</p>
+              <p>Return Policy</p>
+            </div>
+          </div>
+          <div id="social">
+            <h4>FOLLOW US</h4>
+            <img
+              src="https://assets.pharmeasy.in/apothecary/images/Instagram.svg?dim=32x0"
+              alt="insta"
+            /><img
+              src="https://assets.pharmeasy.in/apothecary/images/facebook.svg?dim=32x0"
+              alt="fb"
+            /><img
+              src="https://assets.pharmeasy.in/apothecary/images/Youtube.svg?dim=32x0"
+              alt="YT"
+            /><img
+              src="https://assets.pharmeasy.in/apothecary/images/Twitter.svg?dim=32x0"
+              alt="twit"
+            />
+          </div>
+        </div>
+        <div id="b3sec">
+          <div id="pay">
+            <h4 id="pay1">Our Payment Partners</h4>
+            <span
+              ><img
+                src="https://assets.pharmeasy.in/web-assets/dist/af0c6812.svg"
+                alt=""
+            /></span>
+            <span
+              ><img
+                src="https://assets.pharmeasy.in/web-assets/dist/0e010044.svg"
+                alt=""
+            /></span>
+            <span
+              ><img
+                src="https://assets.pharmeasy.in/web-assets/dist/1066bb1f.svg"
+                alt=""
+            /></span>
+            <span
+              ><img
+                src="https://assets.pharmeasy.in/web-assets/dist/fbea1701.svg"
+                alt="" /></span
+            ><span
+              ><img
+                src="https://assets.pharmeasy.in/web-assets/dist/3a1a533d.svg"
+                alt="" /></span
+            ><span
+              ><img
+                src="https://assets.pharmeasy.in/web-assets/dist/4733a49d.svg"
+                alt="" /></span
+            ><span
+              ><img
+                src="https://assets.pharmeasy.in/web-assets/dist/b278e536.svg"
+                alt="" /></span
+            ><span
+              ><img
+                src="https://assets.pharmeasy.in/web-assets/dist/0aca2077.svg"
+                alt="" /></span
+            ><span
+              ><img
+                src="https://assets.pharmeasy.in/web-assets/dist/44a51ca5.svg"
+                alt="" /></span
+            ><span
+              ><img
+                src="https://assets.pharmeasy.in/web-assets/dist/d058b00d.svg"
+                alt="" /></span
+            ><span
+              ><img
+                src="https://assets.pharmeasy.in/web-assets/dist/e9445364.svg"
+                alt="" /></span
+            ><span
+              ><img
+                src="https://assets.pharmeasy.in/web-assets/dist/6e09c713.svg"
+                alt=""
+            /></span>
+          </div>
+          <div id="copy">© 2021 PharmEasy. All Rights Reserved</div>
+        </div>
+      </div>
+    </div>
+
+   </body> 
+</html>
+<script src="./scripts/index.js"></script>

@@ -1,0 +1,378 @@
+
+#main{
+    border:1px solid red;
+    width:75%;
+    height: 500px;
+    margin: auto;
+    display: flex;
+    margin-left: 190px;
+}
+
+#main>div{
+    border:1px solid rgb(154, 152, 152);
+    border-radius: 5px;
+
+}
+#one{
+    height: 300px;
+    width:60%;
+    display: flex;
+}
+
+#two{
+    height: 500px;
+    width:45%;
+     margin-left: 70px; 
+}
+#it{
+    border:1px solid black;
+    color: rgb(51, 50, 50);
+
+}
+#p{
+    border:1px solid black;
+    margin-left: 330px;
+    margin-top: 30px;
+    color: rgb(91, 89, 89);
+}
+#its{
+     display: flex;
+     border:0px solid red;
+     width:45%;
+     margin-left: 190px;
+     margin-top: 70px;
+}
+
+#left{
+    width:100px;
+    height: 70px;
+    border:0px solid rgb(165, 163, 163);
+    border-radius: 5px;
+    margin: 20px;
+    /* box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;  */
+
+    
+   
+ }
+
+ #left>img{
+    width:100%;
+    height:100%
+ }
+
+ 
+ #middle{
+    width:770px;
+    height: 300px;
+    border:0px solid black
+ }
+
+ #middle >div>h3{
+    margin: 10px;
+    margin-top: 40px;
+    color: rgb(60, 59, 59);
+}
+
+#middle >div>h2{
+    margin: 10px;
+    color: rgb(60, 59, 59);
+    font-size: 20px;
+}
+ #middle>div>img{
+    width: 30px;
+    margin-left: 10px;
+    margin-top: 25px;
+}  
+    
+
+#middle>a{
+    margin-top: 15px;
+    font-size: 19px;
+    margin-left: 8px;
+}
+#mrp{
+    margin-top: -30px;
+}
+
+#middle>button{
+    width:150px;
+    height:60px;
+    background-color: #0d7767;
+    color: white;
+    border:1px solid #0d7767;
+    border-radius: 5px;
+    font-size: 22px;
+    margin-left: 550px;
+    margin-top: -600px;
+    
+}
+#middle>button:hover{
+    background-color: #369284;
+    cursor: pointer;
+} 
+#middle>h5{
+    font-size: 18px;
+    color: rgb(60, 59, 59);
+    margin-left: 8px;
+}
+
+#prod{
+    border:0px solid red;
+    width:100%;
+    height: 400px;
+    display: flex;
+    margin-top: -150px;
+    gap: 20px;
+    margin-left: 190px;
+    
+ }
+ #prod>div{
+    border: 0px solid black;
+    width:200px;
+   
+ }
+ #details>h2{
+    font-size: 17px;
+    font-weight: 600;
+    text-align: left;
+    color: rgb(61, 60, 60);
+    margin-top: 7px;
+ }
+ #details>p{
+    font-size: 17px;
+    text-align: left;
+    color: rgb(61, 60, 60);
+    margin-top: 7px;
+ }
+ #details>button{
+    margin-top: 15px;
+    /* margin-left: 30px; */
+    width:90px;
+    height: 40px;
+    border: 1px solid #0d7767;
+    color:#0d7767;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 700;
+    background-color: white;
+ }
+
+
+ #im{
+    border: 1px solid rgb(153, 149, 149);
+    border-radius: 5px;
+    
+    
+ }
+ #im>img{
+    padding-bottom: 10px;
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    display: block;
+    margin: auto;
+    width:60%;
+    height: 150px;
+ }
+ #ima{
+    border: 1px solid rgb(153, 149, 149);
+    height: 190px;
+    border-radius: 5px;
+    
+    
+ }
+
+ #ima>img{
+    padding-bottom: 10px;
+    padding-top: 50px;
+    padding-left: 30px;
+    padding-right: 30px;
+    display: block;
+    margin: auto;
+    width:60%;
+    height: 80px;
+ }
+ #notes{
+    border:1px solid green;
+ }
+
+ #notes>h1{
+    border:0px solid red;
+    margin-top: 500px;
+    margin-left: -670px;
+    color: rgb(61, 60, 60);
+ }
+ input{
+    width:700px;
+    height:60px;
+    margin-left: -670px;
+    font-size: 14px;
+    border-radius: 5px;
+    border: 1px solid rgb(153, 149, 149);
+ }
+
+ /* #lis{
+
+ #list{
+
+    border:1px solid red;
+    width: 400px;
+    height: 500px; */
+    /* border: 1px solid red; */
+    /* margin-top: 1000px;
+    margin-left: -670px;
+    width:500px
+  */
+ 
+
+ #enc {
+    width: 92%;
+   }
+   #bot1 {
+    width: 70%;
+    margin : auto;
+    display: flex;
+    margin-left: 350px;
+    margin-top: 2800px;
+    /* margin: auto; */
+   }
+   #bot1 > div {
+    flex-basis: 30.3%;
+    margin: 1.5%;
+    padding: 40px 24px;
+   }
+   #bot1 > div > p {
+    color: #8897a2;
+    line-height: 1.2;
+    max-width: 220px;
+    font-size: 17px;
+   }
+   #mob {
+    width: 70%;
+    margin: auto;
+    display: flex;
+    margin-left: 350px;
+   }
+   #mob .mobimg img {
+    width: 240px;
+    height: 420px;
+    padding-right: 10px;
+    margin-right: 100px;
+   }
+   .app {
+    width: 400px;
+   }
+   #txt {
+    margin-top: 20px;
+    font-size: 20px;
+    color: #4f585e;
+    margin-left: 2.5%;
+    line-height: 1.25;
+    font-weight: 400;
+   }
+   .logflx {
+    display: flex;
+    margin-top: 30px;
+   }
+   .log {
+    background-color: #4f585e;
+    color: white;
+    min-width: 16rem;
+    margin: 2.5%;
+    padding: 12px 15px;
+    border-radius: 5px;
+   }
+   .log:hover {
+    background-color: rgb(75, 75, 75);
+   }
+   .log > img {
+    width: 25px;
+    float: left;
+   }
+   .log > p {
+    float: left;
+    margin-left: 15px;
+    margin-top: 0;
+    font-size: 14px;
+    padding-top: 8px;
+    letter-spacing: -0.3px;
+   }
+   #bot3 {
+    background-color: rgb(244, 247, 251);
+    width: 90%;
+    margin: 0;
+    padding: 5% 5%;
+    margin-left: 10px;
+   }
+   #b3first {
+    display: flex;
+   }
+   #feat {
+    display: flex;
+    flex: 3;
+   }
+   #feat > div {
+    flex-basis: 100%;
+   }
+   #b3first p {
+    color: rgb(79, 88, 94);
+    line-height: 1.1;
+    font-size: 16px;
+    font-weight: 400;
+   }
+   span > img {
+    height: 2rem;
+    margin: 0.5rem;
+   }
+   #b3sec {
+    display: flex;
+    flex-basis: auto;
+   }
+   #pay {
+    flex: 3;
+   }
+   #copy {
+    padding-top: 4rem;
+   
+    text-align: right;
+    flex: 1;
+   }
+   #social {
+    margin-left: 20px;
+    flex: 1;
+   }
+   #social > img {
+    width: 50px;
+    background-color: teal;
+    padding: 5px;
+    border-radius: 22px;
+    margin: 0.75rem;
+   }
+   #social > img:hover {
+    transform: scale(1.2);
+   }
+   #social > iframe {
+    width: 100%;
+    border: none;
+    border-radius: 6px;
+    margin-top: 3rem;
+   }
+   #feat p {
+    padding-bottom: 7px;
+   }
+   #feat h4 {
+    padding-top: 10px;
+    font-weight: 700;
+   }
+   #feat p:hover {
+    color: rgb(16, 132, 126);
+   }
+   
+   #social > img:hover {
+    transform: scale(1.2);
+   }
+   #pay > span > img {
+    height: 2rem;
+   }
+   
+   

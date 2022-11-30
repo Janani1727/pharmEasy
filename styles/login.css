@@ -1,0 +1,131 @@
+
+
+#all{
+    width: 100%;
+    height: 800px;
+     background-image: url(https://i.ibb.co/0msJr6h/2022-09-29.png);
+    /* filter:blur(1px) ;
+    -webkit-filter: blur(1px);  */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+#main{
+   
+    color: black;
+    height: 700px;
+    position: fixed;
+    top: 49%;
+    left: 84%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 30%;
+    padding: 20px;
+    /* text-align: center; */
+    border: 1px solid #4f585e ;
+    border-radius: 20px;
+    background-color: white; /* Fallback color */
+    background-color: white; /* Black w/opacity/see-through*/
+  
+    
+}
+#logo{
+    width: 120%;
+    height: 100px;
+    margin-left: -20px;
+    background-color: #10847e;
+    display: flex;
+    /* border: 1px solid red; */
+    
+}
+#logo > img{
+    width: 45%;
+    height: 70%;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+#form > h3{
+    font-size: 20px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #4f585e;
+    line-height: 24px;
+    display: block;
+    margin-left: 30px;
+    margin-top: 60px;
+}
+input{
+    width: 400px;
+    margin: auto;
+    padding: 15px ;
+    margin-left: 20px;
+    display: block;
+    margin-top: 40px;
+    resize: vertical;
+    border: 1px solid #8897a2;
+    border-radius: 8px;
+}
+button{
+    width:430px;
+    height: 50px;
+    margin: auto;
+    margin-left: 20px;
+    background-color: #10847e;
+    display: block;
+    cursor: pointer;
+    resize: vertical;
+    border-radius: 8px;
+    margin-top: 40px;
+    font-size: 20px;
+    color: white;
+    font-weight: 700;
+}
+#form > p{
+    font-size: 16px;
+    margin-left: 25px;
+    margin-top: 30px;
+    color: #4f585e;
+}
+#form > a{
+    text-decoration: none;
+    font-size: 23px;
+    margin-left: 195px;
+    margin-top: 30px;
+    text-align: center;
+}
+span{
+    color: #10847e;
+}
+#msg{
+    color: red;
+    font-size: 16px;
+    margin-left: 30px;
+}
+
+#change{
+    display: flex;
+    width: 400px;
+    margin: auto;
+    margin-top: 10px;
+    justify-content: space-around;
+
+}
+#change > a {
+    text-decoration: none;
+    margin-top: 20px;
+    font-size: 17px;
+    font-weight: 500;
+
+   
+}
+
+#closetoindex{
+    color: #36363c;
+}
+#main_nav{
+    display: none;
+}
+.logoimageinlogin{
+    width: 75%;
+    height: 80%;
+}

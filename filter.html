@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>filter</title>
+    <link rel="stylesheet" href="./styles/filter.css">
+    <!-- <link rel="stylesheet" href="./styles/navbar.css"> -->
+    <!-- <link rel="stylesheet" href="/ready-lock-9044/karn css/footer.css"> -->
+</head>
+<body>
+ 
+
+
+    <div id="global">
+        <div id="filter">
+          <h2>Filter</h2>
+          <div id="filflex">
+            <div>
+              <h3>Category</h3>
+              <label for="cate" class="radlbl">Devices</label>
+              <input
+                type="radio"
+                id="cate"
+                name="cate"
+                value="cate"
+                class="rad"
+              />
+            </div>
+            <hr />
+            <div>
+              <h3>Sub Category</h3>
+              <label for="gluco" class="radlbl">Glucometer</label>
+              <input
+                type="radio"
+                id="gluco"
+                name="gluco"
+                value="gluco"
+                class="rad"
+              /><br />
+              <label for="well" class="radlbl">Sexual Wellness</label
+              ><input
+                type="radio"
+                id="well"
+                name="well"
+                value="well"
+                class="rad"
+              /><br />
+              <label for="bp" class="radlbl">BP Moniters</label
+              ><input
+                type="radio"
+                id="bp"
+                name="bp"
+                value="bp"
+                class="rad"
+              /><br />
+              <label for="hc" class="radlbl">Healthcare Devices</label>
+              <input
+                type="radio"
+                id="hc"
+                name="hc"
+                value="hc"
+                class="rad"
+              /><br />
+              <label for="off" class="radlbl">Offers- Devices</label
+              ><input
+                type="radio"
+                id="off"
+                name="off"
+                value="off"
+                class="rad"
+              /><br />
+              <label for="thermo" class="radlbl">Thermometers</label
+              ><input
+                type="radio"
+                id="thermo"
+                name="thermo"
+                value="thermo"
+                class="rad"
+              /><br />
+              <label for="oxy" class="radlbl">Oxymeters</label
+              ><input
+                type="radio"
+                id="oxy"
+                name="oxy"
+                value="oxy"
+                class="rad"
+              /><br />
+              <label for="nubu" class="radlbl">Nebulizers</label
+              ><input
+                type="radio"
+                id="nebu"
+                name="nebu"
+                value="nebu"
+                class="rad"
+              /><br />
+            </div>
+            <hr />
+            <div>
+              <h3>Brand</h3>
+              <input
+                type="text"
+                name="search"
+                id="search"
+                placeholder="Search"
+              /><br />
+              <label for="accu" class="radlbl">ACCU</label>
+              <input
+                type="checkbox"
+                id="accu"
+                name="accu"
+                value="accu"
+                class="rad"
+              /><br />
+              <label for="accusure" class="radlbl">ACCUSURE</label>
+              <input
+                type="checkbox"
+                id="accusure"
+                name="accusure"
+                value="accusure"
+                class="rad"
+              /><br />
+              <label for="apollo" class="radlbl">APOLLO</label>
+              <input
+                type="checkbox"
+                id="apollo"
+                name="apollo"
+                value="apollo"
+                class="rad"
+              /><br />
+              <label for="beato" class="radlbl">BEATO</label>
+              <input
+                type="checkbox"
+                id="beato"
+                name="beato"
+                value="beato"
+                class="rad"
+              /><br />
+              <label for="contour" class="radlbl">CONTOUR</label>
+              <input
+                type="checkbox"
+                id="contour"
+                name="contour"
+                value="contour"
+                class="rad"
+              /><br />
+              <label for="veri" class="radlbl">VERI-Q</label>
+              <input
+                type="checkbox"
+                id="veri"
+                name="veri"
+                value="veri"
+                class="rad"
+              /><br />
+              <label for="trust" class="radlbl">Dr TRUST</label>
+              <input
+                type="checkbox"
+                id="trust"
+                name="trust"
+                value="trust"
+                class="rad"
+              /><br />
+            </div>
+            <hr />
+            <div>
+              <h3>Price</h3>
+              <label for="low" class="radlbl">less then ₹500</label>
+              <input
+                type="checkbox"
+                id="low"
+                name="low"
+                value="low"
+                class="rad"
+                onclick="chelow()"
+              /><br />
+              <label for="basic" class="radlbl">₹500 - ₹1000</label>
+              <input
+                type="checkbox"
+                id="basic"
+                name="basic"
+                value="basic"
+                class="rad"
+                onclick="chebas()"
+              /><br />
+              <label for="medium" class="radlbl">₹1000 - ₹2000</label>
+              <input
+                type="checkbox"
+                id="medium"
+                name="medium"
+                value="medium"
+                class="rad"
+                onclick="chemed()"
+              /><br />
+              <label for="high" class="radlbl">₹2000 and above</label>
+              <input
+                type="checkbox"
+                id="high"
+                name="high"
+                value="high"
+                class="rad"
+                onclick="chehig()"
+              />
+            </div>
+          </div>
+        </div>
+        <div id="device">
+          <div id="rt">
+            <h2>Products</h2>
+            <p>Sort By:</p>
+            <select name="sort" id="sort">
+              <option value="popu" class="opt">Popularity</option>
+              <option value="low" class="opt" onclick="lowa()">
+                Price Low to High
+              </option>
+              <option value="high" class="opt" onclick="higher()">
+                Price High to Low
+              </option>
+            </select>
+          </div>
+          <div id="jav"></div>
+        </div>
+      </div>
+          <hr>
+      <div id="bot1">
+        <div>
+          <img
+            src="https://assets.pharmeasy.in/web-assets/dist/9ac2da37.svg?dim=0x72&dpr=1.25&q=100"
+          />
+          <h4>1 Lakh+ Products</h4>
+          <p>
+            We maintain strict quality controls on all our partner retailers, so
+            that you always get standard quality products.
+          </p>
+        </div>
+        <div>
+          <img
+            src="https://assets.pharmeasy.in/web-assets/dist/2f258fe0.svg?dim=0x72&dpr=1.25&q=100"
+          />
+          <h4>Secure Payment</h4>
+          <p>100% secure and trusted payment protection</p>
+        </div>
+        <div>
+          <img
+            src="https://assets.pharmeasy.in/web-assets/dist/256fe591.svg?dim=0x72&dpr=1.25&q=100"
+          />
+          <h4>Easy Return</h4>
+          <p>
+            We have a new and dynamic return window policy for medicines and
+            healthcare items. Refer FAQs section for more details.
+          </p>
+        </div>
+      </div>
+      <hr />
+      <div id="mob">
+        <div class="mobimg">
+          <img
+            src="https://assets.pharmeasy.in/web-assets/dist/34a16ae8.jpg"
+            alt="mobile App"
+          />
+        </div>
+        <div class="app">
+          <div id="txt">Download the App for Free</div>
+          <div class="logflx">
+            <div class="log">
+              <img
+                src="https://assets.pharmeasy.in/web-assets/dist/3380aedc.png"
+                alt="Google Play"
+              />
+              <p>Google Play</p>
+            </div>
+            <div class="log">
+              <img
+                src="https://assets.pharmeasy.in/web-assets/dist/9bf5c576.png"
+                alt="Apple Store"
+              />
+              <p>Apple Store</p>
+            </div>
+          </div>
+        </div>
+      </div>
+  
+      <div id="bot3">
+        <div id="b3first">
+          <div id="feat">
+            <div>
+              <h4>Company</h4>
+              <p>Careers</p>
+              <p>Blogs</p>
+              <p>Partner with PharmEasy</p>
+              <h4>Our Services</h4>
+              <p>Order Medicine</p>
+              <p>Healthcare Products</p>
+              <p>Diagnostic Tests</p>
+            </div>
+            <div>
+              <h4>Featured Categories</h4>
+              <p>Covid Essentials</p>
+              <p>Devices</p>
+              <p>Nutriyion and Fitness Suppliments</p>
+              <p>Personal Care</p>
+              <p>Ayurvedic Care</p>
+              <p>Baby and Mom care</p>
+              <p>Skin Care</p>
+              <p>Diabetic Care</p>
+              <p>Sexual Wellness</p>
+              <p>Short term Ailments</p>
+              <p>Lifestyle Ailments</p>
+              <p>Home Care</p>
+              <p>Women Care</p>
+              <p>Health Food and Drinks</p>
+              <p>Ortho Care</p>
+            </div>
+            <div>
+              <h4>Need Help</h4>
+              <p>Browse All Medicines</p>
+              <p>Browse All Molecules</p>
+              <p>FAQs</p>
+              <h4>Policy Info</h4>
+              <p>Editorial Policy</p>
+              <p>Privacy Policy</p>
+              <p>Vulnerability Disclosure Policy</p>
+              <p>Terms and condition</p>
+              <p>Customer Support Policy</p>
+              <p>Return Policy</p>
+            </div>
+          </div>
+          <div id="social">
+            <h4>FOLLOW US</h4>
+            <img
+            src="https://assets.pharmeasy.in/apothecary/images/Instagram.svg?dim=32x0"
+            alt="insta"
+          /><img
+            src="https://assets.pharmeasy.in/apothecary/images/facebook.svg?dim=32x0"
+            alt="fb"
+          /><img
+            src="https://assets.pharmeasy.in/apothecary/images/Youtube.svg?dim=32x0"
+            alt="YT"
+          /><img
+            src="https://assets.pharmeasy.in/apothecary/images/Twitter.svg?dim=32x0"
+            alt="twit"
+          />
+            <iframe height="180" src="https://www.youtube.com/embed/a2HUAVYZ3Y8">
+            </iframe>
+          </div>
+        </div>
+        <div id="b3sec">
+          <div id="pay1">
+            <h4>Our Payment Partners</h4>
+            <span
+              ><img
+                src="https://assets.pharmeasy.in/web-assets/dist/af0c6812.svg"
+                alt=""
+            /></span>
+            <span
+              ><img
+                src="https://assets.pharmeasy.in/web-assets/dist/0e010044.svg"
+                alt=""
+            /></span>
+            <span
+              ><img
+                src="https://assets.pharmeasy.in/web-assets/dist/1066bb1f.svg"
+                alt=""
+            /></span>
+            <span
+              ><img
+                src="https://assets.pharmeasy.in/web-assets/dist/fbea1701.svg"
+                alt="" /></span
+            ><span
+              ><img
+                src="https://assets.pharmeasy.in/web-assets/dist/3a1a533d.svg"
+                alt="" /></span
+            ><span
+              ><img
+                src="https://assets.pharmeasy.in/web-assets/dist/4733a49d.svg"
+                alt="" /></span
+            ><span
+              ><img
+                src="https://assets.pharmeasy.in/web-assets/dist/b278e536.svg"
+                alt="" /></span
+            ><span
+              ><img
+                src="https://assets.pharmeasy.in/web-assets/dist/0aca2077.svg"
+                alt="" /></span
+            ><span
+              ><img
+                src="https://assets.pharmeasy.in/web-assets/dist/44a51ca5.svg"
+                alt="" /></span
+            ><span
+              ><img
+                src="https://assets.pharmeasy.in/web-assets/dist/d058b00d.svg"
+                alt="" /></span
+            ><span
+              ><img
+                src="https://assets.pharmeasy.in/web-assets/dist/e9445364.svg"
+                alt="" /></span
+            ><span
+              ><img
+                src="https://assets.pharmeasy.in/web-assets/dist/6e09c713.svg"
+                alt=""
+            /></span>
+          </div>
+          <div id="copy">© 2021 PharmEasy. All Rights Reserved</div>
+        </div>
+      </div>
+</body>
+</html>
+<script src="./scripts/filter.js"></script>
