@@ -71,7 +71,7 @@ hr{
 
 }
 #navbar>img{
-    margin-left: 80px;
+    margin-left: 50px;
 }
 
 #search{
@@ -83,17 +83,17 @@ hr{
     margin-left: 30px;
     justify-content: space-around;
     height: 60px;
-    margin-left: 50px;
+    margin-left: 20px;
 
 }
 #search>img{
-    margin-left: 20px;
+    margin-left: 10px;
     margin-top: 10px;
     width: 25px;
     height: 25px;
 }
 #search>input{
-    margin-left: 20px;
+    margin-left: 10px;
     /* margin-top: 8px; */
     background: transparent;
     border: 0;
@@ -128,7 +128,7 @@ hr{
 
 #login_div,#offer_div,#cart_main{
     display: flex;
-    margin-left: 15px;
+    margin-left: 5px;
    
     
 }

@@ -9,194 +9,13 @@
     <title>Blog</title>
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link href='https://css.gg/format-justify.css' rel='stylesheet'>
-    
+    <link rel="stylesheet" href="/styles/navbar.css">
     <link href='https://css.gg/format-justify.css' rel='stylesheet'>
     <!-- <link rel="stylesheet" href="./styles/navbar.css"> -->
 
     <!-- section 1 style part -->
  <!-- navbar -->
-    <style>
-      * {
-    padding: 0;
-    margin: 0;
-    font-family: sans-serif;
-  }
-  #main_nav {
-    /* position: sticky; */
-    top: 0;
-    background-color: white;
-    margin-top: 25px;
-    height: 80px;
-    width: 100%;
-    padding: 0;
-  }
-  #navbar {
-    display: flex;
-    flex-direction: row;
-    gap: 30px;
-    font-size: 20px;
-    font-family: sans-serif;
-    margin-bottom: 7px;
-    width: 100%;
-  }
-  #pin {
-    display: block;
-  }
-  #navbar > img {
-    margin-left: 80px;
-  }
-
-  
-  #search {
-    border: 1px solid grey;
-    align-items: center;
-    width: 450px;
-    font-size: 14px;
-    border-radius: 30px;
-    margin-left: 30px;
-    justify-content: space-around;
-    height: 60px;
-    margin-left: 50px;
-  }
-  #search > img {
-    margin-left: 20px;
-    margin-top: 10px;
-    width: 25px;
-    height: 25px;
-  }
-  #search > input {
-    margin-left: 20px;
-    /* margin-top: 8px; */
-    background: transparent;
-    border: 0;
-    outline: 0;
-    width: 200px;
-    margin-top: 0;
-    font-size: 20px;
-    text-align: center;
-    padding-top: 0;
-    /* border: 1px solid green; */
-  }
-  #search > button {
-    width: 130px;
-    height: 50px;
-    margin-bottom: 5px;
-    border-radius: 30px;
-    background-color: #108472;
-    color: white;
-    font-size: 20px;
-    border: none;
-    margin-left: 45px;
-    margin-top: 5px;
-  }
-  #login {
-    text-decoration: none;
-    gap: 5px;
-    color: black;
-    margin-left: 15px;
-  }
-
-  #login_div,
-  #offer_div,
-  #cart_main {
-    display: flex;
-    margin-left: 15px;
-  }
-  #person_img {
-    height: 30px;
-    width: 30px;
-
-    margin-top: 13px;
-    outline: none;
-  }
-  #text {
-    font-size: 20px;
-    margin-left: 10px;
-    margin-top: 17px;
-  }
-  /* #count {
-    position: absolute;
-    top: -4px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #f47779;
-    border: 0.5px solid #fff;
-    border-radius: 8px;
-    width: 16px;
-    height: 16px;
-    color: #fff;
-    font-weight: 700;
-    font-size: 10px;
-    line-height: 16px;
-  } */
-  #count {
-    position: absolute;
-    top: -4px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #f47779;
-    border: 0.5px solid #fff;
-    border-radius: 8px;
-    width: 16px;
-    height: 16px;
-    color: #fff;
-    font-weight: 700;
-    font-size: 10px;
-    line-height: 16px;
-  }
-
-  #showmore {
-    width: 10px;
-    height: 10px;
-  }
-  #offer_img {
-    height: 30px;
-    width: 30px;
-    margin-top: 13px;
-    outline: none;
-  }
-  #offer {
-    text-decoration: none;
-    gap: 5px;
-    color: #000;
-  }
-  #offer_txt {
-    font-size: 20px;
-    margin-left: 10px;
-    margin-top: 17px;
-  }
-  #cart_img {
-    height: 30px;
-    width: 30px;
-    margin-top: 13px;
-    outline: none;
-  }
-  #anchor_tags a {
-    text-decoration: none;
-    color: #000;
-    text-align: center;
-    margin-top: 8px;
-  }
-  #anchor_tags {
-    display: flex;
-    justify-content: center;
-    /* margin-top: 10px; */
-    gap: 35px;
-    background-color: lightblue;
-
-    font-size: 20px;
-    font-family: sans-serif;
-  }
-  #below_main {
-    width: 100%;
-    height: 44px;
-    background-color: lightblue;
-    position: sticky;
-  }
- 
-    </style>
+    
 <!-- footer -->
     <style>
 
@@ -878,7 +697,7 @@
 </head>
 
 <body>
-
+<!-- 
   <div id="main_nav">
     <div id="navbar">
       <img
@@ -953,8 +772,83 @@
     </div>
 
 
-  </div>
+  </div> -->
+  <div id="main_nav">
+    <div id="navbar">
+      <img
+        id="logo"
+        src="https://assets.pharmeasy.in/apothecary/images/logo_big.svg?dim=360x0"
+        alt=""
+      />
+      <hr />
+      <div id="pin">
+        <div>
+          <p style="color: #4f585e ;">
+            <img
+              src="https://assets.pharmeasy.in/apothecary/images/ic_express%20delivery.svg?dim=32x0"
+              alt=""
+            />Express delivery to
+          </p>
+        </div>
 
+        <div>
+          <h3>
+            Select pincode
+            <img id="showmore" src="./images/show-more.png" alt="" />
+          </h3>
+        </div>
+      </div>
+      <div id="search">
+        <img id="searchlogo" src="./images/search.png" alt="" />
+        <input id="searchinput" type="search" placeholder="Search for ..." />
+        <button id="search_btn">Search</button>
+
+      </div>
+      <div style="margin-left: 30px" id="login_div">
+        <div>
+          <img id="person_img" src="./images/profile.png" alt="" />
+        </div>
+        <div id="text">
+          <a id="login" href="login.html"> <span>Hello,Log in</span></a>
+        </div>
+      </div>
+
+      <div id="offer_div">
+        <div>
+          <img id="offer_img" src="./images/offer.png" alt="" />
+        </div>
+        <div id="offer_txt">
+          <a id="offer" href="./offer.html"><span>Offers</span></a>
+        </div>
+      </div>
+
+      <div id="cart_main">
+        <div id="cart_div">
+          <img id="cart_img" src="./images/carts.png" alt="" />
+        </div>
+        <div id="count">1</div>
+        <div id="offer_txt">
+          <a id="offer" href="./cart1.html"><span>Cart</span></a>
+        </div>
+      </div>
+    </div>
+
+    <div id="anchor_tags">
+
+      <a href="./medicine.html">Medicine</a>
+      <a href="./healthcare.html">Healthcare</a>
+      <a href="./labtest.html">Lab Test</a>
+      <a href="./offer.html">Offers</a>
+      <a href="">PLUS</a>
+
+     
+
+      <a href="./blog.html">Health Blogs</a>
+
+    </div>
+
+
+  </div>
 
  
     <!-- secction 1 part -->

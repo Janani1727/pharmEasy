@@ -44,7 +44,7 @@
 
 }
 #navbar>img{
-    margin-left: 80px;
+    margin-left: 50px;
 }
 
 #search{
@@ -55,12 +55,12 @@
     border-radius: 30px;
     margin-left: 30px;
     justify-content: space-around;
-    height: 60px;
-    margin-left: 50px;
+    height: 50px;
+    margin-left: 10px;
 
 }
 #search>img{
-    margin-left: 20px;
+    margin-left: 10px;
     margin-top: 10px;
     width: 25px;
     height: 25px;
@@ -88,7 +88,7 @@
     color: white;
     font-size: 20px;
     border: none;
-    margin-left: 45px;
+    margin-left: 25px;
     margin-top: 5px;
 }
 #login{
@@ -101,7 +101,7 @@
 
 #login_div,#offer_div,#cart_main{
     display: flex;
-    margin-left: 15px;
+    margin-left: 5px;
    
     
 }
